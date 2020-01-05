@@ -32,7 +32,7 @@ function create_portfolio_cpt() {
  
             'public' => true,
             'menu_position' => 15,
-            'supports' => array( 'title', 'editor', 'comments', 'thumbnail', 'custom-fields' ),
+            'supports' => array( 'title', 'editor', 'comments', 'thumbnail', 'custom-fields', 'page-attributes' ),
             'show_in_rest' => true,
             'taxonomies' => array( '' ),            
 			'menu_icon'           => 'dashicons-portfolio',
